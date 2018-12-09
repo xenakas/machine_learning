@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<number_project &le; 2.5<br/>samples = 100.0%<br/>value = [0.65, 0.35]<br/>class = stayed>, fillcolor="#e5813979"] ;
+1 [label=<last_evaluation &le; 0.57<br/>samples = 15.9%<br/>value = [0.4, 0.6]<br/>class = left>, fillcolor="#399de558"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<average_montly_hours &le; 161.5<br/>samples = 12.1%<br/>value = [0.28, 0.72]<br/>class = left>, fillcolor="#399de59a"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+742 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 742 ;
+841 [label=<last_evaluation &le; 0.85<br/>samples = 3.8%<br/>value = [0.76, 0.24]<br/>class = stayed>, fillcolor="#e58139ac"] ;
+1 -> 841 ;
+842 [label="(...)", fillcolor="#C0C0C0"] ;
+841 -> 842 ;
+1053 [label="(...)", fillcolor="#C0C0C0"] ;
+841 -> 1053 ;
+1184 [label=<time_spend_company &le; 3.5<br/>samples = 84.1%<br/>value = [0.7, 0.3]<br/>class = stayed>, fillcolor="#e5813994"] ;
+0 -> 1184 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+1185 [label=<average_montly_hours &le; 290.0<br/>samples = 50.7%<br/>value = [0.8, 0.2]<br/>class = stayed>, fillcolor="#e58139be"] ;
+1184 -> 1185 ;
+1186 [label="(...)", fillcolor="#C0C0C0"] ;
+1185 -> 1186 ;
+6395 [label="(...)", fillcolor="#C0C0C0"] ;
+1185 -> 6395 ;
+6400 [label=<average_montly_hours &le; 218.5<br/>samples = 33.3%<br/>value = [0.56, 0.44]<br/>class = stayed>, fillcolor="#e5813938"] ;
+1184 -> 6400 ;
+6401 [label="(...)", fillcolor="#C0C0C0"] ;
+6400 -> 6401 ;
+7672 [label="(...)", fillcolor="#C0C0C0"] ;
+6400 -> 7672 ;
+}
