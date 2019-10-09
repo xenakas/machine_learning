@@ -53,18 +53,11 @@ similarity/distance measures, clustering algorithms, r tutorial
 
 - [ ] [Time Series Classification and Clustering with Python](http://alexminnaar.com/time-series-classification-and-clustering-with-python.html)
 
-
-
 - [ ] [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
-
-
 
 - [ ] [Hierarchical Clustering  ](http://www.rdatamining.com/examples/hierarchical-clustering)
 
-
 - [ ] [Forecast Combination in R (geomcomb)](http://www.ceweiss.com/geomcomb-forecast-combination-in-r/)
-
-
 
 - [ ] [Comparing Time-Series Clustering Algorithms in R Using the dtwclust](https://cran.r-project.org/web/packages/dtwclust/vignettes/dtwclust.pdf)
 
@@ -76,6 +69,9 @@ similarity/distance measures, clustering algorithms, r tutorial
 
 
 - [ ] [Hierarchical Cluster Analysis](https://uc-r.github.io/hc_clustering)
+
+- [ ] [Hierarchical K-Means Clustering: Optimize Clusters](https://www.datanovia.com/en/lessons/hierarchical-k-means-clustering-optimize-clusters/)
+
 
 ### Slides:
 
